@@ -21,3 +21,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
+
+document.getElementById("myButton").addEventListener("click", function() {
+  this.style.display = "none";
+});
