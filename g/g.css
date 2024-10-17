@@ -9,26 +9,32 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
+    background: rgb(197, 172, 172);
 }
 
-h2, h3 {
+h2{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #e94d58;
     margin: 15px 0;
 }
 
+h3{
+    text-align: center;
+    font-size: 2em; 
+    color: #e94d58;
+    margin: 15px 0;
+}
 .btn-group {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    position: relative; /* Adiciona posição relativa ao contêiner dos botões */
+    position: relative; 
 }
 
 button {
     width: 150px;
-    height: 40px; /* Defina uma altura fixa para os botões */
+    height: 40px; 
     color: white;
     font-size: 1.2em;
     border-radius: 30px;
@@ -36,15 +42,27 @@ button {
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
     border: 2px solid #e94d58;
-    transition: background-color 0.3s; /* Para uma transição suave */
+    transition: background-color 0.3s; 
 }
 
 button:nth-child(1) {
-    margin-right: 20px; /* Use margens normais para espaçamento */
+    margin-right: 20px; 
     background: #e94d58;
 }
 
 button:nth-child(2) {
     background: white;
     color: #e94d58;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 20px;      
+}
+
+.gif {
+    max-width: 100%; 
+    height: auto;    
 }
